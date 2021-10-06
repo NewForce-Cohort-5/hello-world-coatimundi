@@ -11,33 +11,41 @@ footer {
 }
 /* Main body */
 .main-column {
+    object-fit: contain;
+    flex-wrap: wrap;
     border: dotted 1px black;  
 display: flex;
 justify-content: space-evenly;
 }
 /* Germany Column */
 .main1 {
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
 }
 /* Italy Column */
 .main2 {
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
+    
 }
 /* Spain Column */
 .main3 {
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
 }
 /* Scotland Column */
 .main4 {
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
+    object-fit: contain;
 }
 
 /* body images */
