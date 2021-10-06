@@ -1,0 +1,35 @@
+.countryname{
+    text-align: center;
+    border-style: solid;
+    margin: 1em;
+    
+
+}
+
+.countryinformation{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.images{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+       
+}
+
+.cities{
+    border-style: solid;
+
+}
+
+.landmarks{
+    border-style: solid;
+}
+
+.citizens{
+    border-style: solid;
+}
