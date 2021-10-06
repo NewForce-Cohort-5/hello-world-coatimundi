@@ -1,0 +1,55 @@
+.navigation {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    font-family:'Source Serif Pro', serif;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+ .images {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+ }
+
+ .countryinformation {
+     width: 95vw;
+     display: flex;
+     align-content: center;
+     justify-content: space-evenly;
+     font-family: 'Karla', sans-serif;
+    
+ }
+
+ .countryname {
+     font-family: 'Source Serif Pro', serif;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ .cities {
+    font-family: 'Karla', sans-serif;
+    border: 1px solid black;
+    padding: 1em;
+ }
+
+ .landmarks {
+    font-family: 'Karla', sans-serif;
+    border: 1px solid black;
+    padding: 1em;
+ }
+
+ .citizens {
+    font-family: 'Karla', sans-serif;
+    border: 1px solid black;
+    padding: 1em;
+ }
+
+ .subheading {
+     font-weight: bold;
+ }
