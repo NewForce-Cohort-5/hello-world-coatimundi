@@ -2,20 +2,27 @@ footer {
     border: 1px dotted black;
     padding: 10px;
 }
-
+/* Main body */
 .main-column {
     border: dotted 1px black;
+
 }
+/* Germany Column */
 .main1 {
     border: dotted 1px black;
 }
+/* Italy Column */
 .main2 {
     border: dotted 1px black;
 }
+/* Spain Column */
 .main3 {
     border: dotted 1px black;
 }
-
+/* Scotland Column */
 .main4 {
     border: dotted 1px black;
+}
+img {
+    width: 20%;
 }
