@@ -1,35 +1,59 @@
-.countryname{
-    text-align: center;
-    border-style: solid;
-    margin: 1em;
-    
-
-}
-
-.countryinformation{
-    display: flex;
-    justify-content: space-evenly;
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #c0ded9 ;
     
 }
 
-.images{
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-       
+footer {
+    border: 1px dotted black;
+    padding: 10px;
+    background-color: #b2c2bf;
+}
+/* Main body */
+.main-column {
+    border: dotted 1px black;  
+display: flex;
+justify-content: space-evenly;
+}
+/* Germany Column */
+.main1 {
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+/* Italy Column */
+.main2 {
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+/* Spain Column */
+.main3 {
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
+}
+/* Scotland Column */
+.main4 {
+    border: dotted 1px black;
+    flex-basis: 20%;
+    padding: 1em;
 }
 
-.cities{
-    border-style: solid;
-
+/* body images */
+img {
+    width: 100%;
+    height: 50%;
 }
 
-.landmarks{
-    border-style: solid;
+/* Image in scotland */
+.main-image {
+    border: black 1px solid;    
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
-
-.citizens{
-    border-style: solid;
+.images {
+    width: 100vw;
+    height: 25vw;
 }
