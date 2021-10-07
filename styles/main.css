@@ -1,4 +1,4 @@
-.logo {
+.logo img{
     padding: 2em;
     width: 248px;
     height: 90px;
@@ -8,7 +8,21 @@ body {
     background-color: #c0ded9 ;
     
 }
-
+.navigation {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    font-family:'Source Serif Pro', serif;
+    font-size: 16pt;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #b2c2bf;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    padding: 0.5em;
+}
 footer {
     border: 1px dotted black;
     padding: 10px;
@@ -26,7 +40,6 @@ justify-content: space-evenly;
 .main1 {
     font-size: .8em;
     overflow: auto;
-    font-size: 1em;
     flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
