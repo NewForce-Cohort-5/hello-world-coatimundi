@@ -27,14 +27,16 @@ footer {
     border: 1px dotted black;
     padding: 10px;
     background-color: #b2c2bf;
+    margin-top: 2em;
 }
 /* Main body */
 .main-column {
     overflow: hidden;
     flex-wrap: wrap;
     border: dotted 1px black;  
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
 }
 /* Germany Column */
 .main1 {
