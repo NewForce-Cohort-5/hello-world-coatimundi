@@ -23,13 +23,19 @@
 
 .cities{
     border-style: solid;
+    flex-basis: 28%;
+    
+      
 
 }
 
 .landmarks{
     border-style: solid;
+    flex-basis: 28%;
+
 }
 
 .citizens{
     border-style: solid;
+    flex-basis: 28%;
 }
