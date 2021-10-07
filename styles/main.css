@@ -11,33 +11,49 @@ footer {
 }
 /* Main body */
 .main-column {
+    overflow: hidden;
+    flex-wrap: wrap;
     border: dotted 1px black;  
 display: flex;
 justify-content: space-evenly;
 }
 /* Germany Column */
 .main1 {
+    font-size: .8em;
+    overflow: auto;
+    font-size: 1em;
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
 }
 /* Italy Column */
 .main2 {
+    font-size: .8em;
+   overflow: auto;
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
 }
 /* Spain Column */
 .main3 {
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
 }
 /* Scotland Column */
 .main4 {
+    font-size: .8em;
+    overflow: auto;
+    flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
+    object-fit: contain;
 }
 
 /* body images */
@@ -47,13 +63,4 @@ img {
 }
 
 /* Image in scotland */
-.main-image {
-    border: black 1px solid;    
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-.images {
-    width: 100vw;
-    height: 25vw;
-}
+
