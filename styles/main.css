@@ -11,7 +11,7 @@ footer {
 }
 /* Main body */
 .main-column {
-    object-fit: contain;
+    overflow: hidden;
     flex-wrap: wrap;
     border: dotted 1px black;  
 display: flex;
@@ -19,6 +19,9 @@ justify-content: space-evenly;
 }
 /* Germany Column */
 .main1 {
+    font-size: .8em;
+    overflow: auto;
+    font-size: 1em;
     flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
@@ -26,14 +29,17 @@ justify-content: space-evenly;
 }
 /* Italy Column */
 .main2 {
+    font-size: .8em;
+   overflow: auto;
     flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
     padding: 1em;
-    
 }
 /* Spain Column */
 .main3 {
+    font-size: .8em;
+    overflow: auto;
     flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
@@ -41,6 +47,8 @@ justify-content: space-evenly;
 }
 /* Scotland Column */
 .main4 {
+    font-size: .8em;
+    overflow: auto;
     flex-wrap: wrap;
     border: dotted 1px black;
     flex-basis: 20%;
