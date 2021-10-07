@@ -23,7 +23,6 @@
      align-content: center;
      justify-content: space-evenly;
      font-family: 'Karla', sans-serif;
-    
  }
 
  .countryname {
@@ -36,18 +35,26 @@
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
+    padding-left: 2em;
+    flex-basis: 25%; 
  }
+ 
 
  .landmarks {
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
+    padding-left: 2em;
+    flex-basis: 25%;
+    
  }
 
  .citizens {
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
+    padding-left: 2em;
+    flex-basis: 25%; 
  }
 
  .subheading {
