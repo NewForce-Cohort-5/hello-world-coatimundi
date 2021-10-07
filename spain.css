@@ -60,3 +60,17 @@
  .subheading {
      font-weight: bold;
  }
+
+ .navigation a{
+    display: inline-block;
+    padding: 0.5em o.75em;
+    border-radius: 4px;
+    text-decoration: none;
+}
+ .navigation li{
+     display: inline-block;
+ }
+ 
+ .navigation .current{
+     background-color: rgb(255, 0, 157);
+ }
