@@ -63,13 +63,4 @@ img {
 }
 
 /* Image in scotland */
-.main-image {
-    border: black 1px solid;    
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-.images {
-    width: 100vw;
-    height: 25vw;
-}
+
