@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="spain.css">
-    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Source+Serif+Pro:wght@300;400&display=swap');
+    </style>
+    <title>Spain</title>
 </head>
-<header>
-    <nav class="navigation">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="italy.html">Italy</a></li>
-    <li><a class="current" href="spain.html">Spain</a></li>
-    <li><a href="scotland.html">Scotland</a></li>
-    <li><a href="germany.html">Germany</a></li>
-  </nav>
-</header>
 <body>
+    <header>
+        <div class="logo">
+                <img src="images/logoBAD.png" alt="Coatimundi Travel Logo">
+            </div>
+        <nav class="navigation">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="italy.html">Italy</a></li>
+            <li><a class="current" href="spain.html">Spain</a></li>
+            <li><a href="scotland.html">Scotland</a></li>
+            <li><a href="germany.html">Germany</a></li>
+        </ul>
+    </nav>
+    </header>
 
-        <div class="images">
-        <img src="https://pbs.twimg.com/media/EYDlzghXsAAPVtp.jpg:large">
+    <div class="images">
+        <img src="https://pbs.twimg.com/media/EYDlzghXsAAPVtp.jpg:large" alt="spain picture">
     </div>
     
   
@@ -28,26 +37,34 @@
        </header>
     
     <section class="countryinformation">
-        <ul class="cities">
+        <div class="cities">
             <div class="subheading">Cities:</div>
-            <li>Madrid</li>
-            <li>Granada</li>
-        </ul>
+            <ul>
+                <li>Madrid</li>
+                <li>Granada</li>
+            </ul>
+        </div>
 
-        <ul class="landmarks">
+        <div class="landmarks">
             <div class="subheading">Landmarks:</div>
-            <li>Antonio Gaudi Church in Barcelona</li>
-            <li>Mediterranean Sea</li>
-        </ul>
+            <ul>
+                <li>Antonio Gaudi Church in Barcelona</li>
+                <li>Mediterranean Sea</li>
+            </ul>
+        </div>
 
-        <ul class="citizens">
+        <div class="citizens">
             <div class="subheading">Notable Citizens:</div>
-            <li>Pablo Picasso</li>
-            <li>Rafael Nadal</li>
-        </ul>
+            <ul>
+                <li>Pablo Picasso</li>
+                <li>Rafael Nadal</li>
+            </ul>
+        </div>
 
     </section>
 
-    
+    <footer>
+        <p>© 2021 Coatimundi Travel, Inc.</p>
+    </footer>
 </body>
 </html>
