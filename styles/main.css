@@ -6,9 +6,9 @@
 body {
     font-family: 'Karla', sans-serif;
     background-color: #c0ded9 ;
-    
+
 }
-.navigation {
+.navigation ul{
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
