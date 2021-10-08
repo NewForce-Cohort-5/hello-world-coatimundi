@@ -27,12 +27,15 @@
  }
 
  .countryname {
+     background: yellow;
+     color: magenta;
      font-family: 'Source Serif Pro', serif;
      font-weight: bold;
      text-align: center;
  }
  
  .cities {
+    background: yellow;
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
@@ -42,6 +45,7 @@
  
 
  .landmarks {
+    background: yellow;
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
@@ -51,6 +55,7 @@
  }
 
  .citizens {
+    background: yellow;
     font-family: 'Karla', sans-serif;
     border: 1px solid black;
     padding: 1em;
